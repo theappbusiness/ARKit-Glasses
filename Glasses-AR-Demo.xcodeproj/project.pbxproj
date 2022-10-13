@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		E6952A7428F6C4380094B78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7328F6C4380094B78A /* AppDelegate.swift */; };
 		E6952A7628F6C4380094B78A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7528F6C4380094B78A /* ContentView.swift */; };
-		E6952A7828F6C4380094B78A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7728F6C4380094B78A /* Experience.rcproject */; };
+		E6952A7828F6C4380094B78A /* Glasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E6952A7728F6C4380094B78A /* Glasses.rcproject */; };
 		E6952A7A28F6C43B0094B78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6952A7928F6C43B0094B78A /* Assets.xcassets */; };
 		E6952A7D28F6C43B0094B78A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6952A7C28F6C43B0094B78A /* Preview Assets.xcassets */; };
 		E6952A8728F6C43B0094B78A /* Glasses_AR_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A8628F6C43B0094B78A /* Glasses_AR_DemoTests.swift */; };
 		E6952A9128F6C43B0094B78A /* Glasses_AR_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A9028F6C43B0094B78A /* Glasses_AR_DemoUITests.swift */; };
 		E6952A9328F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6952A9228F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift */; };
+		E6952AA028F6CA3A0094B78A /* PartyGlasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E6952A9F28F6CA3A0094B78A /* PartyGlasses.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		E6952A7028F6C4380094B78A /* Glasses-AR-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glasses-AR-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6952A7328F6C4380094B78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6952A7528F6C4380094B78A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E6952A7728F6C4380094B78A /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		E6952A7728F6C4380094B78A /* Glasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Glasses.rcproject; sourceTree = "<group>"; };
 		E6952A7928F6C43B0094B78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6952A7C28F6C43B0094B78A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6952A8228F6C43B0094B78A /* Glasses-AR-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glasses-AR-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +47,7 @@
 		E6952A8C28F6C43B0094B78A /* Glasses-AR-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glasses-AR-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6952A9028F6C43B0094B78A /* Glasses_AR_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glasses_AR_DemoUITests.swift; sourceTree = "<group>"; };
 		E6952A9228F6C43B0094B78A /* Glasses_AR_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glasses_AR_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6952A9F28F6CA3A0094B78A /* PartyGlasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PartyGlasses.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			children = (
 				E6952A7328F6C4380094B78A /* AppDelegate.swift */,
 				E6952A7528F6C4380094B78A /* ContentView.swift */,
-				E6952A7728F6C4380094B78A /* Experience.rcproject */,
+				E6952A7728F6C4380094B78A /* Glasses.rcproject */,
+				E6952A9F28F6CA3A0094B78A /* PartyGlasses.rcproject */,
 				E6952A7928F6C43B0094B78A /* Assets.xcassets */,
 				E6952A7B28F6C43B0094B78A /* Preview Content */,
 			);
@@ -262,7 +265,8 @@
 			files = (
 				E6952A7628F6C4380094B78A /* ContentView.swift in Sources */,
 				E6952A7428F6C4380094B78A /* AppDelegate.swift in Sources */,
-				E6952A7828F6C4380094B78A /* Experience.rcproject in Sources */,
+				E6952AA028F6CA3A0094B78A /* PartyGlasses.rcproject in Sources */,
+				E6952A7828F6C4380094B78A /* Glasses.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Glasses-AR-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 36RW6T2CKS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -430,6 +435,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Glasses-AR-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 36RW6T2CKS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -460,6 +467,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
